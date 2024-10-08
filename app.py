@@ -60,7 +60,7 @@ fig_age.update_layout(xaxis_title="Wiek", yaxis_title="Liczba osób")
 st.plotly_chart(fig_age)
 
 # Wykres pudełkowy dla wieku
-fig_box_age = px.box(same_cluster_df, y="age", title="Rozkład wieku w grupie (Wykres pudełkowy)")
+fig_box_age = px.box(same_cluster_df, y="age", title="Rozkład wieku w grupie (Box plot)")
 fig_box_age.update_layout(yaxis_title="Wiek")
 st.plotly_chart(fig_box_age)
 
